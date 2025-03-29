@@ -97,8 +97,14 @@ The flags of `train` and `predict_all` correspond to the `exp_main.py` and `pred
 As for `pred`, it is used to predict the structure of a single sequence, e.g.,
 
 ```
-$ (tu_fold_venv) tu_fold pred AUCG...(the RNA sequence) --results_folder_path path/to/fold/containing/model/weight/and/config
+$ (tu_fold_venv) tu_fold pred AUCG...(the RNA sequence) --results_folder_path path/to/folder/containing/model/weight/and/config
 ```
 
 This will use the corresponding model weight and config to predict the structure of the given sequence.
+
+Quit the `venv`
+
+```
+$ (tu_fold_venv) deactivate
+```
 
